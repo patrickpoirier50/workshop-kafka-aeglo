@@ -52,3 +52,11 @@ Dans un nouveau terminal (entrer dans le docker containter broker)
 #Démarrer un consommateur pour lire les évènements
 kafka-console-consumer --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
 ```
+
+## Étape 5 - Reculer le offset
+
+```
+kafka-console-consumer --topic quickstart-events --offset 1  --bootstrap-server localhost:9092 --partition 0
+```
+
+TODO: topic avec plusieurs partitions + consumer group + plusieurs consumer,Delete, Compact
