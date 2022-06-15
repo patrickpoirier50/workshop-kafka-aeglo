@@ -15,6 +15,7 @@ Voir dossier /kakfa_2.13-3.1.0
 ## Télécharger les images Docker
 
 ### Ouvrir un terminal pour démarrer docker-compose Kafka
+***Sur Mac, démarrer Docker Desktop***
 
 ```
 cd docker
