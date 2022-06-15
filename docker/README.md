@@ -138,6 +138,7 @@ emp3:{"name":"John Smith", "age":33}
 p1:10$
 p2:7$
 p1:11$
+p3:15$
 
 #Démarrer un consommateur pour lire les évènements
 kafka-console-consumer --topic quickstart-events-compact --from-beginning --bootstrap-server localhost:9092 --property  print.key=true --property key.separator=:
